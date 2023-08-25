@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(129, 170, 228);
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.project-box {
+    width: 400px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.project-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.github-link {
+    color: #000;
+    text-decoration: none;
+}

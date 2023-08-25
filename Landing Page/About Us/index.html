@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <style>
+        body{
+            background-color: #f8f8ff ;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f2f2f2;
+        }
+        .left-column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid #ccc;
+            padding-right: 20px;
+        }
+        .right-column {
+            padding-left: 20px;
+        }
+        .image {
+            width: 100%;
+            max-width: 300px;
+            /* border: 2px solid #ccc; */
+            padding: 10px;
+        }
+        .heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .line {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .para {
+            margin-bottom: 10px;
+            white-space: pre-line;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .call-image {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            margin-top: 10px;
+        }
+        .number {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .left-column, .right-column {
+                border-right: none;
+                padding: 0;
+                text-align: center;
+            }
+            .image {
+                max-width: 80%;
+                margin-bottom: 20px;
+            }
+            .call-image {
+                width: 80px;
+                height: 80px;
+            }
+        }
+
+        .image2 {
+            width: 10;
+            max-width: 30px;
+            /* border: 2px solid #ccc; */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="aboutlogo.png" alt="Image" class="image">
+        </div>
+        <div class="right-column">
+            <h2 class="heading">About</h2>
+            <div class="line"></div>
+            <p class="para">Calling all new coders!
+                Join our website today for a coding roadmap and valuable resources.
+                Start your coding journey with a structured roadmap,
+                learn at your own pace, and coding exercises.
+                Connect with a supportive community and get guidance from experienced mentors.
+                Don't miss out on this opportunity to turn your coding dreams into reality.
+                Visit our website now and let the coding adventure begin!
+            </p>
+            <p class="bold">Think.Achieve.Repeat!</p>
+            <div class="container1">
+                <img src="emaillogo.png" alt="Image" class="image2"> <span class="container1">rightrouteforcoders@gmail.com</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

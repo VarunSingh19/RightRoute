@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="welcome.css" />
+  <title>Right Route</title>
+
+  <style>
+    .contributors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .contributor-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 200px;
+    }
+
+    .contributor-card img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .contributor-card p {
+        margin: 0;
+    }
+
+    /* Details Tag's CSS */
+
+    details {
+        cursor: pointer;
+    }
+
+    summary {
+        font-weight: bold;
+    }
+</style>
+
+
+</head>
+
+<body>
+
+  <nav>
+    <a href="#" class="logo" id="logo">
+      <h1>
+          <span class="right">Right</span><span class="route">Route</span>
+      </h1>
+  </a>
+    <div class="hamburger" id="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <div class="menu-bar">
+
+      <ul id="navItems">
+        <li class="nav-item">
+          <a href="About Us\index.html" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="Roadmap\landingpage\index.html" class="nav-link" id="nav-link">RoadMap</a>
+        </li>
+        <li class="nav-item">
+          <a href="Project Idea Section\landingpage\index.html" class="nav-link" id="nav-link">Project Idea</a>
+        </li>
+        <li class="nav-item">
+          <a href="Chat App\index.html" class="nav-link" id="nav-link">Chat Room</a>
+        </li>
+        <li class="nav-item">
+          <a href="#sourcecode" class="nav-link" id="nav-link">Source Code</a>
+        </li>
+        <li class="nav-item">
+          <a href="#newsportal" class="nav-link" id="nav-link">Tech News Portal</a>
+        </li>
+        <li class="nav-item">
+          <a href="Code Editor\index.html" class="nav-link" id="nav-link">Code Editor</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+
+    <div class="home-container">
+      <h1>Welcome to Our Website</h1>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+      <p>Discover the amazing features of our platform.</p>
+
+      <div class="home-features">
+        <ul>
+          <li>Direct Link To Projects.</li>
+          <li>InBuilt Code Editor.</li>
+          <li>Detailed RoadMap.</li>
+          <li>Source Codes.</li>
+          <li>DSA Helper.</li>
+        </ul>
+      </div>
+
+      <div class="home-callout">
+        <h2>Sign up today!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus lacus ac dolor consequat, at tempor
+          lorem convallis.</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h3>Our Contributors</h3>
+      </div>
+
+      <section class="contributors">
+        <div class="contributor-card">
+            <a href="https://github.com/VarunSingh19"><img src="contributor1.jpg" alt="Contributor 1"></a>
+            <details>
+              <summary>Varun Singh</summary>
+              <p>Team Lead Of The Project "RightRoute".</p>
+          </details>
+        </div>
+        <div class="contributor-card">
+            <img src="contributor3.jpg" alt="Contributor 2">
+            <details>
+              <summary>Divyansh Singh</summary>
+              <p>"RoadMap Website's" Developer.</p>
+          </details>
+        </div>
+        <!-- <div class="contributor-card">
+            <img src="contributor2.jpg" alt="Contributor 3">
+            <details>
+              <summary>Priyanka Tiwari</summary>
+              <p>Project Helper And Code Reviewer.</p>
+          </details>
+        </div> -->
+        <!-- <div class="contributor-card">
+          <img src="contributor4.jpg" alt="Contributor 4">
+          <details>
+            <summary>Rohan Sharma</summary>
+            <p>"Project Idea" Website's Developer.</p>
+        </details>
+      </div> -->
+        <!-- Add more contributor cards as needed -->
+    </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
